@@ -65,1427 +65,1232 @@ const quizData =
 {
   "quizzes": [
     {
-      "title": "q1",
+      "title": "q8",
       "questions": [
         {
-          "question": "What is a set in mathematics?",
+          "question": "To maintain __________ in academic writing, sentences should be concise and free from unnecessary complexity.",
           "options": [
-            "A collection of well-defined objects",
-            "A collection of numbers only",
-            "A collection of only integers",
-            "A collection of variables"
+            "Clarity",
+            "Obscurity",
+            "Ambiguity",
+            "Confusion"
           ],
-          "answer": "A collection of well-defined objects"
+          "answer": "Clarity"
         },
         {
-          "question": "Which of the following is a subset of { 1, 2, 3 }?",
+          "question": "Which of the following is NOT a feature of academic writing?",
           "options": [
-            "{ 2, 3 }",
-            "{ 3, 4 }",
-            "{ 4, 5 }",
-            "{ 5 }"
+            "Precision",
+            "Slang",
+            "Formality",
+            "Objectivity"
           ],
-          "answer": "{ 2, 3 }"
+          "answer": "Slang"
         },
         {
-          "question": "Which of the following is not a set?",
+          "question": "The use of __________ point of view is common in academic writing to maintain objectivity and remove personal bias.",
           "options": [
-            "{ 1, 2, 3, 4 }",
-            "{ a, b, c }",
-            "{ 1, 2, 3, 3 }",
-            "{ x | x > 0 }"
+            "First-person",
+            "Third-person",
+            "Second-person",
+            "Passive voice"
           ],
-          "answer": "{ 1, 2, 3, 3 }"
+          "answer": "Third-person"
         },
         {
-          "question": "What is the cardinality of the set A = {2, 4, 6, 8}?",
+          "question": "What is a key characteristic of academic writing?",
           "options": [
-            "4",
-            "5",
-            "3",
-            "6"
+            "Use of contractions",
+            "Personal anecdotes",
+            "Formal tone",
+            "Colloquial expressions"
           ],
-          "answer": "4"
+          "answer": "Formal tone"
         },
         {
-          "question": "Which operation is used to find the common elements between two sets?",
+          "question": "In academic writing, __________ helps to avoid overstatement and presents information as cautiously as possible.",
           "options": [
-            "Union",
-            "Intersection",
-            "Difference",
-            "Symmetric difference"
+            "Hedging",
+            "Assurance",
+            "Exaggeration",
+            "Empathy"
           ],
-          "answer": "Intersection"
+          "answer": "Hedging"
         },
         {
-          "question": "What is the universal set in set theory?",
+          "question": "Which of the following expressions is considered informal and should be avoided in academic writing?",
           "options": [
-            "The set containing all subsets",
-            "The set containing no elements",
-            "The set containing all elements under consideration",
-            "A set with elements of the same type"
+            "Therefore",
+            "For instance",
+            "A lot",
+            "In addition"
           ],
-          "answer": "The set containing all elements under consideration"
+          "answer": "A lot"
         },
         {
-          "question": "What is the complement of a set A = {1, 2, 3} if the universal set is U = {1, 2, 3, 4, 5}?",
+          "question": "Academic writing requires __________ sentences that convey clear and specific ideas.",
           "options": [
-            "{ 4, 5 }",
-            "{ 1, 2, 3 }",
-            "{ 4, 5, 6 }",
-            "{ 1, 3 }"
+            "Complex",
+            "Simple",
+            "Compound",
+            "Incomplete"
           ],
-          "answer": "{ 4, 5 }"
+          "answer": "Complex"
         },
         {
-          "question": "What is the result of A ∪ B where A = {1, 2} and B = {2, 3}?",
+          "question": "Which of the following would be considered an inappropriate phrase in academic writing?",
           "options": [
-            "{ 1, 2 }",
-            "{ 1, 2, 3 }",
-            "{ 3 }",
-            "{ 1 }"
+            "According to the research",
+            "The study shows that",
+            "You should know that",
+            "The findings indicate"
           ],
-          "answer": "{ 1, 2, 3 }"
+          "answer": "You should know that"
         },
         {
-          "question": "Which of the following represents the power set of {1, 2}?",
+          "question": "In academic writing, __________ language should be used to avoid subjective opinions.",
           "options": [
-            "{ {1, 2}, {1}, {2}, ∅ }",
-            "{ 1, 2, 3 }",
-            "{ 1, 2 }",
-            "{ 1, 3 }"
+            "Personal",
+            "Impersonal",
+            "Informal",
+            "Slang"
           ],
-          "answer": "{ {1, 2}, {1}, {2}, ∅ }"
+          "answer": "Impersonal"
         },
         {
-          "question": "What is the difference between two sets A and B?",
+          "question": "Which of the following is essential for objectivity in academic writing?",
           "options": [
-            "The elements that are in A but not in B",
-            "The elements that are in B but not in A",
-            "The common elements of both sets",
-            "The total number of elements in both sets"
+            "Expressing personal feelings",
+            "Use of first-person pronouns",
+            "Avoiding biased language",
+            "Using casual tone"
           ],
-          "answer": "The elements that are in A but not in B"
+          "answer": "Avoiding biased language"
         },
         {
-          "question": "If A = {1, 2, 3} and B = {2, 3, 4}, what is A ∩ B?",
+          "question": "Academic writing should avoid the use of __________ questions, as they are considered informal.",
           "options": [
-            "{ 1, 2 }",
-            "{ 3, 4 }",
-            "{ 2, 3 }",
-            "{ 1, 4 }"
+            "Rhetorical",
+            "Functional",
+            "Clarifying",
+            "Direct"
           ],
-          "answer": "{ 2, 3 }"
+          "answer": "Rhetorical"
         },
         {
-          "question": "Which of the following is the correct notation for the complement of a set A?",
+          "question": "Which of the following is NOT a feature of academic writing?",
           "options": [
-            "A'",
-            "A^c",
-            "A^{-1}",
-            "Both a and b"
+            "Use of proper citation",
+            "Overuse of technical jargon",
+            "Logical structure",
+            "Clear focus on the topic"
           ],
-          "answer": "Both a and b"
+          "answer": "Overuse of technical jargon"
         },
         {
-          "question": "What is the union of the sets A = {1, 2} and B = {3, 4}?",
+          "question": "To ensure __________ in academic writing, it is important to maintain the same terminology throughout the text.",
           "options": [
-            "{ 1, 2, 3, 4 }",
-            "{ 1, 2 }",
-            "{ 3, 4 }",
-            "{ 1, 3 }"
+            "Consistency",
+            "Contradiction",
+            "Ambiguity",
+            "Confusion"
           ],
-          "answer": "{ 1, 2, 3, 4 }"
+          "answer": "Consistency"
         },
         {
-          "question": "Which of the following sets is infinite?",
+          "question": "Which of the following is most appropriate for formal academic writing?",
           "options": [
-            "{ 1, 2, 3 }",
-            "{ x | x ∈ ℕ, x > 0 }",
-            "{ }",
-            "{ 1, 2, 2, 3 }"
+            "Can't",
+            "Cannot",
+            "Won't",
+            "Don't"
           ],
-          "answer": "{ x | x ∈ ℕ, x > 0 }"
+          "answer": "Cannot"
         },
         {
-          "question": "What is the symmetric difference between two sets A and B?",
+          "question": "__________ allows writers to express caution and avoid making overly strong claims.",
           "options": [
-            "The set of elements that are in both A and B",
-            "The set of elements that are only in A or B, but not both",
-            "The union of A and B",
-            "The intersection of A and B"
+            "Hedging",
+            "Exaggeration",
+            "Overstatement",
+            "Clarification"
           ],
-          "answer": "The set of elements that are only in A or B, but not both"
+          "answer": "Hedging"
         },
         {
-          "question": "Which of the following is a proper subset of A = {1, 2, 3}?",
+          "question": "Which of the following would be an acceptable approach in academic writing?",
           "options": [
-            "{ 1, 2, 3 }",
-            "{ 2, 3 }",
-            "{ 4, 5 }",
-            "{ 1, 2, 4 }"
+            "Using contractions like \"don't\" and \"won't\"",
+            "Using a formal tone and complete sentences",
+            "Using slang terms such as \"cool\" and \"stuff\"",
+            "Writing in a personal, informal style"
           ],
-          "answer": "{ 2, 3 }"
+          "answer": "Using a formal tone and complete sentences"
         },
         {
-          "question": "Which of the following is not a valid set?",
+          "question": "When referencing sources in academic writing, __________ quotations are often used to support your arguments.",
           "options": [
-            "{ 1, 2, 3 }",
-            "{ x | x ∈ ℕ, x < 5 }",
-            "{ 1, 2, 2 }",
-            "{ 1, 2, 3, 4 }"
+            "Direct",
+            "Indirect",
+            "Paraphrased",
+            "Unattributed"
           ],
-          "answer": "{ 1, 2, 2 }"
+          "answer": "Direct"
         },
         {
-          "question": "What does the notation A ⊆ B mean?",
+          "question": "In academic writing, which of the following helps in avoiding ambiguity?",
           "options": [
-            "A is a subset of B",
-            "A is a proper subset of B",
-            "A and B are identical",
-            "A is not a subset of B"
+            "Using complex sentences",
+            "Using clear and precise terms",
+            "Using colloquial expressions",
+            "Using vague language"
           ],
-          "answer": "A is a subset of B"
+          "answer": "Using clear and precise terms"
         },
         {
-          "question": "Which of the following is true for the empty set?",
+          "question": "In academic writing, __________ voice is often used to focus on the action rather than the subject performing it.",
           "options": [
-            "It contains no elements",
-            "It is a subset of every set",
-            "It is a proper subset of every set",
+            "Active",
+            "Passive",
+            "Imperative",
+            "Conditional"
+          ],
+          "answer": "Passive"
+        },
+        {
+          "question": "Which of the following is a major element of academic writing?",
+          "options": [
+            "Informal tone",
+            "Subjective expression",
+            "Use of clear thesis and arguments",
+            "Personal pronouns"
+          ],
+          "answer": "Use of clear thesis and arguments"
+        }
+      ]
+    },
+    {
+      "title": "q9",
+      "questions": [
+        {
+          "question": "The report __________ by the team last week.",
+          "options": [
+            "was submitted",
+            "is submitted",
+            "will be submitted",
+            "has been submitted"
+          ],
+          "answer": "was submitted"
+        },
+        {
+          "question": "Which of the following sentences is in passive voice?",
+          "options": [
+            "The teacher explains the lesson.",
+            "The students completed the assignment.",
+            "The meeting was attended by the manager.",
+            "The committee will review the proposal."
+          ],
+          "answer": "The meeting was attended by the manager."
+        },
+        {
+          "question": "The application form __________ by all participants before the event.",
+          "options": [
+            "is filled",
+            "will be filled",
+            "was filled",
+            "has been filled"
+          ],
+          "answer": "will be filled"
+        },
+        {
+          "question": "Which of the following sentences is correct?",
+          "options": [
+            "The documents were completed by the team.",
+            "The team completes the documents.",
+            "The documents will complete by the team.",
+            "The team completed the documents."
+          ],
+          "answer": "The documents were completed by the team."
+        },
+        {
+          "question": "The email __________ yesterday afternoon.",
+          "options": [
+            "is sent",
+            "has been sent",
+            "was sent",
+            "will be sent"
+          ],
+          "answer": "was sent"
+        },
+        {
+          "question": "Which of the following is the passive form of the sentence \"They are cleaning the room\"?",
+          "options": [
+            "The room was cleaned by them.",
+            "The room is cleaned by them.",
+            "The room is being cleaned by them.",
+            "The room will be cleaned by them."
+          ],
+          "answer": "The room is being cleaned by them."
+        },
+        {
+          "question": "The results __________ next week.",
+          "options": [
+            "will announce",
+            "will be announced",
+            "is announced",
+            "has been announced"
+          ],
+          "answer": "will be announced"
+        },
+        {
+          "question": "What is the correct passive form of the sentence \"They will launch the new product tomorrow\"?",
+          "options": [
+            "The new product is launched tomorrow.",
+            "The new product will be launched tomorrow.",
+            "The new product will launch tomorrow.",
+            "The new product is being launched tomorrow."
+          ],
+          "answer": "The new product will be launched tomorrow."
+        },
+        {
+          "question": "The decision __________ after the final meeting.",
+          "options": [
+            "is made",
+            "was made",
+            "has been made",
+            "will be made"
+          ],
+          "answer": "was made"
+        },
+        {
+          "question": "Which sentence is in the passive voice?",
+          "options": [
+            "The committee approved the proposal.",
+            "The proposal was approved by the committee.",
+            "The committee is approving the proposal.",
+            "The committee will approve the proposal."
+          ],
+          "answer": "The proposal was approved by the committee."
+        },
+        {
+          "question": "The report __________ by the assistant manager.",
+          "options": [
+            "is prepared",
+            "was prepared",
+            "has been prepared",
+            "will be prepared"
+          ],
+          "answer": "was prepared"
+        },
+        {
+          "question": "Identify the correct passive form of \"The teacher gave the students the homework\".",
+          "options": [
+            "The homework was given by the students.",
+            "The students were given the homework by the teacher.",
+            "The teacher was given the homework.",
+            "The homework was given to the teacher."
+          ],
+          "answer": "The students were given the homework by the teacher."
+        },
+        {
+          "question": "The research __________ over a period of six months.",
+          "options": [
+            "is conducted",
+            "was conducted",
+            "has been conducted",
+            "will be conducted"
+          ],
+          "answer": "was conducted"
+        },
+        {
+          "question": "Which of the following sentences is in passive voice?",
+          "options": [
+            "The manager reviews the report.",
+            "The report is reviewed by the manager.",
+            "The manager will review the report.",
+            "The report will review the manager."
+          ],
+          "answer": "The report is reviewed by the manager."
+        },
+        {
+          "question": "The contract __________ by both parties tomorrow.",
+          "options": [
+            "will sign",
+            "will be signed",
+            "is signed",
+            "has been signed"
+          ],
+          "answer": "will be signed"
+        },
+        {
+          "question": "What is the correct passive form of \"They are completing the project\"?",
+          "options": [
+            "The project is completed.",
+            "The project is being completed.",
+            "The project was completed.",
+            "The project has been completed."
+          ],
+          "answer": "The project is being completed."
+        },
+        {
+          "question": "The document __________ by the administration office last Friday.",
+          "options": [
+            "is sent",
+            "was sent",
+            "has been sent",
+            "will be sent"
+          ],
+          "answer": "was sent"
+        },
+        {
+          "question": "Which of the following is the passive form of \"The workers are building a new bridge\"?",
+          "options": [
+            "A new bridge is being built by the workers.",
+            "A new bridge has been built by the workers.",
+            "A new bridge was built by the workers.",
+            "The workers are building a new bridge."
+          ],
+          "answer": "A new bridge is being built by the workers."
+        },
+        {
+          "question": "The documents __________ by the team before the deadline.",
+          "options": [
+            "completed",
+            "was completed",
+            "were completed",
+            "will complete"
+          ],
+          "answer": "were completed"
+        },
+        {
+          "question": "Which of the following sentences is in the correct passive voice?",
+          "options": [
+            "The test results were analyzed by the researchers.",
+            "The researchers analyzed the test results.",
+            "The researchers will analyze the test results.",
+            "The test results will analyze the researchers."
+          ],
+          "answer": "The test results were analyzed by the researchers."
+        }
+      ]
+    },
+    {
+      "title": "q10",
+      "questions": [
+        {
+          "question": "To maintain __________ in academic writing, it is important to connect ideas logically between paragraphs.",
+          "options": [
+            "Coherence",
+            "Incoherence",
+            "Uncertainty",
+            "Disagreement"
+          ],
+          "answer": "Coherence"
+        },
+        {
+          "question": "Which word is the most formal alternative for \"a lot\"?",
+          "options": [
+            "Much",
+            "Many",
+            "Numerous",
+            "Few"
+          ],
+          "answer": "Numerous"
+        },
+        {
+          "question": "The researcher is conducting __________ to understand the behavior of the species in the wild.",
+          "options": [
+            "Research",
+            "Investigation",
+            "Survey",
+            "Analysis"
+          ],
+          "answer": "Research"
+        },
+        {
+          "question": "Which of the following words can replace \"big\" in academic writing?",
+          "options": [
+            "Huge",
+            "Substantial",
+            "Large",
+            "Fat"
+          ],
+          "answer": "Substantial"
+        },
+        {
+          "question": "The study provides __________ that supports the hypothesis.",
+          "options": [
+            "Evidence",
+            "Speculation",
+            "Assumptions",
+            "Theories"
+          ],
+          "answer": "Evidence"
+        },
+        {
+          "question": "Which word is the most formal alternative for \"help\"?",
+          "options": [
+            "Assist",
+            "Aid",
+            "Support",
+            "Rescue"
+          ],
+          "answer": "Assist"
+        },
+        {
+          "question": "It is important to __________ all possible variables when conducting the experiment.",
+          "options": [
+            "Consider",
+            "Disregard",
+            "Ignore",
+            "Exclude"
+          ],
+          "answer": "Consider"
+        },
+        {
+          "question": "Which of the following words can replace \"show\" in academic writing?",
+          "options": [
+            "Display",
+            "Present",
+            "Demonstrate",
             "All of the above"
           ],
           "answer": "All of the above"
         },
         {
-          "question": "What is the power set of A = {1, 2}?",
+          "question": "The data __________ the assumptions made at the beginning of the study.",
           "options": [
-            "{ {1}, {2}, {1, 2}, ∅ }",
-            "{ {1, 2}, ∅ }",
-            "{ {1}, {2} }",
-            "{ {1, 2} }"
+            "Confirm",
+            "Deny",
+            "Ignore",
+            "Indicate"
           ],
-          "answer": "{ {1}, {2}, {1, 2}, ∅ }"
-        }
-      ]
-    },
-    {
-      "title": "q2",
-      "questions": [
-        {
-          "question": "What is a function?",
-          "options": [
-            "A relation between a set of inputs and a set of outputs",
-            "A relation where every input corresponds to multiple outputs",
-            "A set of ordered pairs",
-            "A set of numbers"
-          ],
-          "answer": "A relation between a set of inputs and a set of outputs"
-        },
-        {
-          "question": "What is the domain of a function?",
-          "options": [
-            "The set of all possible outputs",
-            "The set of all possible inputs",
-            "The range of the function",
-            "The set of all ordered pairs"
-          ],
-          "answer": "The set of all possible inputs"
-        },
-        {
-          "question": "What is the range of a function?",
-          "options": [
-            "The set of all possible outputs",
-            "The set of all possible inputs",
-            "The domain of the function",
-            "The set of all ordered pairs"
-          ],
-          "answer": "The set of all possible outputs"
-        },
-        {
-          "question": "Which of the following is an example of an injective function?",
-          "options": [
-            "A function where every element in the domain maps to the same element in the codomain",
-            "A function where every element in the domain maps to a unique element in the codomain",
-            "A function with no outputs",
-            "A function where all elements map to the same output"
-          ],
-          "answer": "A function where every element in the domain maps to a unique element in the codomain"
-        },
-        {
-          "question": "What is an onto function?",
-          "options": [
-            "A function where every element in the codomain has at least one preimage in the domain",
-            "A function where no element in the codomain has a preimage in the domain",
-            "A function where the domain and codomain are identical",
-            "A function where all elements map to the same output"
-          ],
-          "answer": "A function where every element in the codomain has at least one preimage in the domain"
-        },
-        {
-          "question": "A function is said to be bijective if:",
-          "options": [
-            "It is both injective and surjective",
-            "It is injective but not surjective",
-            "It is surjective but not injective",
-            "It is neither injective nor surjective"
-          ],
-          "answer": "It is both injective and surjective"
-        },
-        {
-          "question": "What is the inverse of a function?",
-          "options": [
-            "A function that reverses the order of inputs and outputs",
-            "A function that maps each output to multiple inputs",
-            "A function that has no outputs",
-            "A function that maps every input to the same output"
-          ],
-          "answer": "A function that reverses the order of inputs and outputs"
-        },
-        {
-          "question": "What does the notation f: A → B represent?",
-          "options": [
-            "A relation from set A to set B",
-            "A function from set A to set B",
-            "A mapping from set B to set A",
-            "A set of ordered pairs"
-          ],
-          "answer": "A function from set A to set B"
-        },
-        {
-          "question": "Which of the following statements is true about functions?",
-          "options": [
-            "A function can have multiple outputs for the same input",
-            "A function cannot have more than one input for the same output",
-            "A function can have no output for some inputs",
-            "A function must have exactly one output for each input"
-          ],
-          "answer": "A function must have exactly one output for each input"
-        },
-        {
-          "question": "What is a bijection?",
-          "options": [
-            "A one-to-one correspondence between elements of the domain and codomain",
-            "A function with no elements in the codomain",
-            "A function that maps multiple elements to the same output",
-            "A function that maps only one element to the same output"
-          ],
-          "answer": "A one-to-one correspondence between elements of the domain and codomain"
-        },
-        {
-          "question": "What is the composition of functions f and g?",
-          "options": [
-            "(f ∘ g)(x) = f(g(x))",
-            "(f ∘ g)(x) = g(f(x))",
-            "(f ∘ g)(x) = x",
-            "(f ∘ g)(x) = f(x) × g(x)"
-          ],
-          "answer": "(f ∘ g)(x) = f(g(x))"
-        },
-        {
-          "question": "Which of the following is an example of a surjective function?",
-          "options": [
-            "A function where each element in the domain has a unique corresponding element in the codomain",
-            "A function where every element in the codomain is mapped by at least one element from the domain",
-            "A function that maps every element in the domain to the same element in the codomain",
-            "A function where no element in the codomain is mapped"
-          ],
-          "answer": "A function where every element in the codomain is mapped by at least one element from the domain"
-        },
-        {
-          "question": "What does the function f(x) = 2x + 3 represent?",
-          "options": [
-            "A non-linear function",
-            "A linear function",
-            "A constant function",
-            "A surjective function only"
-          ],
-          "answer": "A linear function"
-        },
-        {
-          "question": "Which of the following represents the inverse function of f(x) = 3x - 4?",
-          "options": [
-            "f^{-1}(x) = (x + 4)/3",
-            "f^{-1}(x) = (x - 3)/4",
-            "f^{-1}(x) = (x + 3)/4",
-            "f^{-1}(x) = x/3"
-          ],
-          "answer": "f^{-1}(x) = (x + 4)/3"
-        },
-        {
-          "question": "Which function is an example of a bijection?",
-          "options": [
-            "f(x) = x²",
-            "f(x) = 3x + 2",
-            "f(x) = 2x - 5",
-            "f(x) = 1/x"
-          ],
-          "answer": "f(x) = 3x + 2"
-        },
-        {
-          "question": "What does the domain of a function represent?",
-          "options": [
-            "The set of all possible outputs",
-            "The set of all possible inputs",
-            "The set of all values in the range",
-            "The set of all possible values of the function"
-          ],
-          "answer": "The set of all possible inputs"
-        },
-        {
-          "question": "What is a one-to-one function?",
-          "options": [
-            "A function where every output has a corresponding input",
-            "A function where every input has a unique output",
-            "A function where no two inputs have the same output",
-            "Both b and c"
-          ],
-          "answer": "Both b and c"
-        },
-        {
-          "question": "What is the range of the function f(x) = x² when the domain is x ≥ 0?",
-          "options": [
-            "[0, ∞)",
-            "(-∞, ∞)",
-            "(-∞, 0]",
-            "[0, ∞) ∪ (-∞, 0]"
-          ],
-          "answer": "[0, ∞)"
-        },
-        {
-          "question": "How is a function f(x) = x³ - 5 described?",
-          "options": [
-            "A polynomial function",
-            "A linear function",
-            "A piecewise function",
-            "A trigonometric function"
-          ],
-          "answer": "A polynomial function"
-        },
-        {
-          "question": "What is the inverse of f(x) = 2x + 1?",
-          "options": [
-            "f^{-1}(x) = (x - 1)/2",
-            "f^{-1}(x) = 2x + 1",
-            "f^{-1}(x) = (x + 1)/2",
-            "f^{-1}(x) = x - 1"
-          ],
-          "answer": "f^{-1}(x) = (x - 1)/2"
-        }
-      ]
-    },
-    {
-      "title": "q3",
-      "questions": [
-        {
-          "question": "What is a sequence in mathematics?",
-          "options": [
-            "A set of elements arranged in any order",
-            "A collection of numbers where order does not matter",
-            "A list of numbers in a specific order",
-            "A pair of numbers"
-          ],
-          "answer": "A list of numbers in a specific order"
-        },
-        {
-          "question": "What does the nth term of a sequence represent?",
-          "options": [
-            "The number of terms in the sequence",
-            "The sum of the first n terms",
-            "The individual term at position n",
-            "The average of the terms"
-          ],
-          "answer": "The individual term at position n"
-        },
-        {
-          "question": "What is the common difference in an arithmetic sequence?",
-          "options": [
-            "The difference between consecutive terms",
-            "The ratio between consecutive terms",
-            "The sum of the first and last term",
-            "The total number of terms in the sequence"
-          ],
-          "answer": "The difference between consecutive terms"
-        },
-        {
-          "question": "What is the general form of an arithmetic sequence?",
-          "options": [
-            "a_n = a_1 + (n - 1)d",
-            "a_n = a_1 × r^{n-1}",
-            "a_n = a_1 + d",
-            "a_n = a_1 + r"
-          ],
-          "answer": "a_n = a_1 + (n - 1)d"
-        },
-        {
-          "question": "What is the common ratio in a geometric sequence?",
-          "options": [
-            "The ratio between the first and last terms",
-            "The ratio between consecutive terms",
-            "The difference between consecutive terms",
-            "The sum of all terms"
-          ],
-          "answer": "The ratio between consecutive terms"
-        },
-        {
-          "question": "How is the sum of the first n terms of an arithmetic sequence calculated?",
-          "options": [
-            "S_n = (n/2)(a_1 + a_n)",
-            "S_n = a_1 × n",
-            "S_n = n²/2",
-            "S_n = n × a_n"
-          ],
-          "answer": "S_n = (n/2)(a_1 + a_n)"
-        },
-        {
-          "question": "What is the nth term of the geometric sequence 3, 6, 12, 24, ...?",
-          "options": [
-            "a_n = 3 × 2^{n-1}",
-            "a_n = 3 × n²",
-            "a_n = 3 + 2n",
-            "a_n = 3 × n"
-          ],
-          "answer": "a_n = 3 × 2^{n-1}"
-        },
-        {
-          "question": "Which of the following is true for the sequence 1, 4, 7, 10, ...?",
-          "options": [
-            "It is an arithmetic sequence with common difference 2",
-            "It is a geometric sequence with common ratio 2",
-            "It is an arithmetic sequence with common difference 3",
-            "It is a geometric sequence with common ratio 3"
-          ],
-          "answer": "It is an arithmetic sequence with common difference 3"
-        },
-        {
-          "question": "What is the sum of the first 5 terms of the arithmetic sequence 2, 5, 8, 11, 14?",
-          "options": [
-            "40",
-            "45",
-            "50",
-            "55"
-          ],
-          "answer": "45"
-        },
-        {
-          "question": "What is the nth term of the sequence 2, 4, 6, 8, 10?",
-          "options": [
-            "a_n = 2n",
-            "a_n = 2n - 1",
-            "a_n = 2 + n",
-            "a_n = 2n + 1"
-          ],
-          "answer": "a_n = 2n"
-        },
-        {
-          "question": "In the geometric sequence 2, 6, 18, 54, ..., what is the 5th term?",
-          "options": [
-            "162",
-            "216",
-            "324",
-            "432"
-          ],
-          "answer": "162"
-        },
-        {
-          "question": "What is the sum of the first 4 terms of the sequence 1, 2, 4, 8?",
-          "options": [
-            "15",
-            "16",
-            "14",
-            "13"
-          ],
-          "answer": "15"
-        },
-        {
-          "question": "What is the nth term of a sequence 3, 6, 12, 24, ...?",
-          "options": [
-            "a_n = 3 × 2^{n-1}",
-            "a_n = 3^n",
-            "a_n = 3n",
-            "a_n = 3 × 2n"
-          ],
-          "answer": "a_n = 3 × 2^{n-1}"
-        },
-        {
-          "question": "Which of the following is a recursive formula for the sequence 1, 4, 7, 10, ...?",
-          "options": [
-            "a_1 = 1, a_n = a_{n-1} + 3",
-            "a_1 = 1, a_n = a_{n-1} × 3",
-            "a_1 = 3, a_n = a_{n-1} + 2",
-            "a_1 = 2, a_n = a_{n-1} + 4"
-          ],
-          "answer": "a_1 = 1, a_n = a_{n-1} + 3"
-        },
-        {
-          "question": "What is the general form of the sum of a geometric series?",
-          "options": [
-            "S_n = a_1(1 - r^n)/(1 - r)",
-            "S_n = a_1/r^n",
-            "S_n = r^n/a_1",
-            "S_n = a_1 × r^n"
-          ],
-          "answer": "S_n = a_1(1 - r^n)/(1 - r)"
-        },
-        {
-          "question": "What is the 3rd term of the arithmetic sequence 5, 8, 11, 14, ...?",
-          "options": [
-            "11",
-            "12",
-            "13",
-            "14"
-          ],
-          "answer": "11"
-        },
-        {
-          "question": "What is the nth term of the sequence 2, 6, 18, 54, ...?",
-          "options": [
-            "a_n = 2^n",
-            "a_n = 2 × 3^{n-1}",
-            "a_n = 3^n",
-            "a_n = 6 × 3^{n-1}"
-          ],
-          "answer": "a_n = 2 × 3^{n-1}"
-        },
-        {
-          "question": "In the arithmetic sequence 2, 5, 8, 11, ..., what is the common difference?",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": "3"
-        },
-        {
-          "question": "What is the sum of the first 10 terms of the arithmetic sequence 3, 6, 9, 12, ...?",
-          "options": [
-            "150",
-            "180",
-            "120",
-            "100"
-          ],
-          "answer": "180"
-        },
-        {
-          "question": "What is the nth term of the sequence 1, 2, 4, 8, 16, ...?",
-          "options": [
-            "a_n = 2^n",
-            "a_n = 2n",
-            "a_n = 2^{n-1}",
-            "a_n = 2 × n"
-          ],
-          "answer": "a_n = 2^{n-1}"
-        }
-      ]
-    },
-    {
-      "title": "q4",
-      "questions": [
-        {
-          "question": "How many ways can you arrange 3 letters from the set {A, B, C, D}?",
-          "options": [
-            "6",
-            "12",
-            "9",
-            "15"
-          ],
-          "answer": "6"
-        },
-        {
-          "question": "If a committee of 3 members is selected from a group of 5, how many different committees can be formed?",
-          "options": [
-            "5",
-            "10",
-            "15",
-            "20"
-          ],
-          "answer": "10"
-        },
-        {
-          "question": "What is the number of permutations of the word \"APPLE\"?",
-          "options": [
-            "60",
-            "120",
-            "24",
-            "10"
-          ],
-          "answer": "60"
-        },
-        {
-          "question": "What is the number of ways to select 2 items from a set of 5 items where order does not matter?",
-          "options": [
-            "5",
-            "10",
-            "15",
-            "20"
-          ],
-          "answer": "10"
-        },
-        {
-          "question": "How many ways can you choose 3 objects from 7 distinct objects?",
-          "options": [
-            "7",
-            "20",
-            "35",
-            "70"
-          ],
-          "answer": "35"
-        },
-        {
-          "question": "What is the number of distinct arrangements of the letters in the word \"SUCCESS\"?",
-          "options": [
-            "2520",
-            "5040",
-            "720",
-            "120"
-          ],
-          "answer": "2520"
-        },
-        {
-          "question": "How many ways can 4 people be seated in a row of 4 chairs?",
-          "options": [
-            "24",
-            "12",
-            "6",
-            "4"
-          ],
-          "answer": "24"
-        },
-        {
-          "question": "What is the number of ways to select 3 objects from a set of 5 objects with repetition?",
-          "options": [
-            "\\binom{5+3-1}{3}",
-            "\\binom{5}{3}",
-            "\\binom{5+3-1}{2}",
-            "\\binom{5+3}{3}"
-          ],
-          "answer": "\\binom{5+3-1}{3}"
-        },
-        {
-          "question": "How many different ways can you arrange the letters in the word \"COMPUTER\"?",
-          "options": [
-            "40320",
-            "5040",
-            "6720",
-            "720"
-          ],
-          "answer": "40320"
-        },
-        {
-          "question": "What is the formula for calculating combinations?",
-          "options": [
-            "\\binom{n}{r} = \\frac{n!}{r!(n - r)!}",
-            "\\binom{n}{r} = n!",
-            "\\binom{n}{r} = \\frac{r!}{n!}",
-            "\\binom{n}{r} = \\frac{n!}{r!}"
-          ],
-          "answer": "\\binom{n}{r} = \\frac{n!}{r!(n - r)!}"
-        },
-        {
-          "question": "How many ways can you arrange the letters of the word \"EXAMPLE\"?",
-          "options": [
-            "5040",
-            "420",
-            "2520",
-            "10080"
-          ],
-          "answer": "420"
-        },
-        {
-          "question": "What is the number of ways to arrange 4 objects from 8 distinct objects without repetition?",
-          "options": [
-            "8!",
-            "8 × 7 × 6 × 5",
-            "\\binom{8}{4}",
-            "\\frac{8!}{4!}"
-          ],
-          "answer": "8 × 7 × 6 × 5"
-        },
-        {
-          "question": "How many ways can you select 2 items from a set of 5 items where order matters?",
-          "options": [
-            "5",
-            "10",
-            "20",
-            "30"
-          ],
-          "answer": "30"
-        },
-        {
-          "question": "How many different 3-digit numbers can be formed using the digits 1, 2, 3, 4, 5 with repetition allowed?",
-          "options": [
-            "125",
-            "120",
-            "15",
-            "10"
-          ],
-          "answer": "125"
-        },
-        {
-          "question": "How many ways can you choose 2 objects from 4 distinct objects?",
-          "options": [
-            "3",
-            "6",
-            "8",
-            "10"
-          ],
-          "answer": "6"
-        },
-        {
-          "question": "How many ways can 3 men and 3 women be arranged in a row?",
-          "options": [
-            "720",
-            "60",
-            "180",
-            "120"
-          ],
-          "answer": "720"
-        },
-        {
-          "question": "How many ways can you arrange 5 objects if two of them are identical?",
-          "options": [
-            "120",
-            "60",
-            "10",
-            "24"
-          ],
-          "answer": "60"
-        },
-        {
-          "question": "What is the total number of ways to choose 4 objects from a set of 7 objects, without repetition?",
-          "options": [
-            "35",
-            "28",
-            "21",
-            "7"
-          ],
-          "answer": "35"
-        },
-        {
-          "question": "What is the number of combinations of selecting 3 objects from a set of 8?",
-          "options": [
-            "56",
-            "70",
-            "84",
-            "120"
-          ],
-          "answer": "70"
-        }
-      ]
-    },
-    {
-      "title": "q5",
-      "questions": [
-        {
-          "question": "How many ways can you choose 2 objects from a set of 4 objects with repetition allowed?",
-          "options": [
-            "10",
-            "6",
-            "15",
-            "20"
-          ],
-          "answer": "15"
-        },
-        {
-          "question": "What is the total number of ways to select 4 objects from 8 distinct objects where order does not matter and repetition is allowed?",
-          "options": [
-            "\\binom{8 + 4 - 1}{4}",
-            "\\binom{8}{4}",
-            "\\frac{8!}{4!}",
-            "8^4"
-          ],
-          "answer": "\\binom{8 + 4 - 1}{4}"
-        },
-        {
-          "question": "How many different ways can you arrange 4 objects from 6 distinct objects with repetition allowed?",
-          "options": [
-            "6^4",
-            "\\binom{6}{4}",
-            "\\frac{6!}{2!}",
-            "120"
-          ],
-          "answer": "6^4"
-        },
-        {
-          "question": "What is the number of ways to arrange the letters in the word \"DEAD\"?",
-          "options": [
-            "24",
-            "12",
-            "36",
-            "72"
-          ],
-          "answer": "12"
-        },
-        {
-          "question": "How many ways can you assign 3 distinct objects to 2 boxes with repetition allowed?",
-          "options": [
-            "2^3",
-            "3^2",
-            "2^2",
-            "8"
-          ],
-          "answer": "2^3"
-        },
-        {
-          "question": "How many ways can you distribute 10 identical balls into 4 distinct boxes?",
-          "options": [
-            "20",
-            "30",
-            "35",
-            "120"
-          ],
-          "answer": "35"
-        },
-        {
-          "question": "What is the number of ways to distribute 4 distinct objects into 3 boxes where each box can contain multiple objects?",
-          "options": [
-            "3^4",
-            "4^3",
-            "12^4",
-            "\\frac{4!}{3!}"
-          ],
-          "answer": "3^4"
-        },
-        {
-          "question": "What is the number of ways to arrange 2 distinct objects in 5 boxes with repetition allowed?",
-          "options": [
-            "25",
-            "10",
-            "16",
-            "20"
-          ],
-          "answer": "25"
-        },
-        {
-          "question": "How many ways can you select 3 distinct objects from a set of 6 objects where order does not matter and repetition is not allowed?",
-          "options": [
-            "\\binom{6}{3}",
-            "\\binom{6 + 3 - 1}{3}",
-            "\\frac{6!}{3!(6 - 3)!}",
-            "6^3"
-          ],
-          "answer": "\\binom{6}{3}"
-        },
-        {
-          "question": "How many different ways can you arrange the letters in the word \"BALLS\"?",
-          "options": [
-            "120",
-            "60",
-            "180",
-            "72"
-          ],
-          "answer": "60"
-        },
-        {
-          "question": "What is the number of ways to assign 3 distinct objects to 2 boxes if each box can contain multiple objects but at least one box must remain empty?",
-          "options": [
-            "3",
-            "8",
-            "4",
-            "5"
-          ],
-          "answer": "4"
-        },
-        {
-          "question": "How many ways can you arrange 5 objects from a set of 7 distinct objects without repetition?",
-          "options": [
-            "7!",
-            "\\binom{7}{5}",
-            "7 × 6 × 5 × 4 × 3",
-            "\\frac{7!}{(7 - 5)!}"
-          ],
-          "answer": "\\frac{7!}{(7 - 5)!}"
-        },
-        {
-          "question": "What is the number of ways to select 5 items from a set of 10 items with repetition allowed?",
-          "options": [
-            "\\binom{10 + 5 - 1}{5}",
-            "\\binom{10}{5}",
-            "\\binom{10}{3}",
-            "10^5"
-          ],
-          "answer": "\\binom{10 + 5 - 1}{5}"
-        },
-        {
-          "question": "What is the total number of ways to choose 4 objects from 8 distinct objects without repetition?",
-          "options": [
-            "\\binom{8}{4}",
-            "\\frac{8!}{4!}",
-            "\\binom{8}{5}",
-            "8 × 7 × 6 × 5"
-          ],
-          "answer": "\\binom{8}{4}"
-        },
-        {
-          "question": "How many different ways can you arrange 6 objects from a set of 10 distinct objects?",
-          "options": [
-            "\\binom{10}{6}",
-            "10^6",
-            "\\frac{10!}{(10 - 6)!}",
-            "10 × 9 × 8 × 7"
-          ],
-          "answer": "\\frac{10!}{(10 - 6)!}"
-        },
-        {
-          "question": "What is the number of ways to select 4 objects from 5 objects, with repetition allowed?",
-          "options": [
-            "35",
-            "60",
-            "70",
-            "15"
-          ],
-          "answer": "15"
-        },
-        {
-          "question": "How many ways can you arrange 4 objects with repetition from a set of 5 distinct objects?",
-          "options": [
-            "625",
-            "25",
-            "5",
-            "120"
-          ],
-          "answer": "625"
-        },
-        {
-          "question": "What is the total number of ways to select 3 objects from a set of 6 distinct objects without repetition?",
-          "options": [
-            "\\binom{6}{3}",
-            "20",
-            "30",
-            "10"
-          ],
-          "answer": "\\binom{6}{3}"
-        },
-        {
-          "question": "What is the number of ways to select 3 objects from a set of 4 distinct objects without repetition?",
-          "options": [
-            "\\binom{4}{3}",
-            "10",
-            "4",
-            "20"
-          ],
-          "answer": "\\binom{4}{3}"
-        },
-        {
-          "question": "How many ways can 3 objects be arranged in 2 boxes where repetition is allowed?",
-          "options": [
-            "2^3",
-            "3^2",
-            "6^3",
-            "2^4"
-          ],
-          "answer": "2^3"
-        }
-      ]
-    },
-    {
-      "title": "q6",
-      "questions": [
-        {
-          "question": "What is the first step in a mathematical induction proof?",
-          "options": [
-            "Base case",
-            "Inductive hypothesis",
-            "Inductive step",
-            "Conclusion"
-          ],
-          "answer": "Base case"
-        },
-        {
-          "question": "In mathematical induction, the inductive hypothesis assumes that:",
-          "options": [
-            "The statement is true for all integers",
-            "The statement is true for some arbitrary integer k",
-            "The statement is true for k+1",
-            "The statement is false for k+1"
-          ],
-          "answer": "The statement is true for some arbitrary integer k"
-        },
-        {
-          "question": "Which of the following is true in the inductive step of a proof by induction?",
-          "options": [
-            "We show that P(k) implies P(k + 1)",
-            "We show that P(k) is true for all integers",
-            "We prove P(k) for a specific value of k",
-            "We prove the base case"
-          ],
-          "answer": "We show that P(k) implies P(k + 1)"
-        },
-        {
-          "question": "What does the base case in mathematical induction prove?",
-          "options": [
-            "That the statement is true for k+1",
-            "That the statement is true for k",
-            "That the statement is true for the starting integer, typically n = 1",
-            "That the statement is true for all integers"
-          ],
-          "answer": "That the statement is true for the starting integer, typically n = 1"
-        },
-        {
-          "question": "What does the principle of mathematical induction allow us to prove?",
-          "options": [
-            "That a statement holds for a finite number of values",
-            "That a statement holds for all values greater than or equal to a certain integer",
-            "That a statement is false for some values",
-            "That a statement is true for all integers"
-          ],
-          "answer": "That a statement holds for all values greater than or equal to a certain integer"
-        },
-        {
-          "question": "Which of the following is the correct format for a mathematical induction proof?",
-          "options": [
-            "Prove the base case, then prove the inductive step",
-            "Prove the base case only",
-            "Prove the inductive hypothesis only",
-            "Prove the base case and assumption step"
-          ],
-          "answer": "Prove the base case, then prove the inductive step"
-        },
-        {
-          "question": "What is the base case for the statement \"For all n ≥ 1, n² ≥ n\"?",
-          "options": [
-            "P(1): 1² ≥ 1",
-            "P(1): 1² ≤ 1",
-            "P(2): 2² ≥ 2",
-            "P(3): 3² ≥ 3"
-          ],
-          "answer": "P(1): 1² ≥ 1"
-        },
-        {
-          "question": "What is the inductive hypothesis?",
-          "options": [
-            "The assumption that the statement is true for k+1",
-            "The assumption that the statement is true for an arbitrary k",
-            "The assumption that the statement is true for all integers",
-            "The assumption that the statement is false for k+1"
-          ],
-          "answer": "The assumption that the statement is true for an arbitrary k"
-        },
-        {
-          "question": "In the inductive step of mathematical induction, we must prove:",
-          "options": [
-            "That P(k) holds for k + 1",
-            "That P(k + 1) holds if P(k) is true",
-            "That P(k) holds for a base case",
-            "That P(k + 1) holds for all k"
-          ],
-          "answer": "That P(k + 1) holds if P(k) is true"
-        },
-        {
-          "question": "What is the time complexity of mathematical induction?",
-          "options": [
-            "Constant time",
-            "Linear time",
-            "Exponential time",
-            "Logarithmic time"
-          ],
-          "answer": "Constant time"
+          "answer": "Confirm"
         },
         {
-          "question": "What is an example of a proof that uses mathematical induction?",
+          "question": "Which of the following is the best academic replacement for \"get\"?",
           "options": [
-            "Proving divisibility rules",
-            "Proving properties of numbers and sequences",
-            "Proving geometric properties",
+            "Receive",
+            "Obtain",
+            "Acquire",
             "All of the above"
           ],
           "answer": "All of the above"
         },
         {
-          "question": "What is the principle of mathematical induction used for?",
+          "question": "The __________ in global temperatures is a matter of concern.",
           "options": [
-            "To prove statements for all integers",
-            "To find the greatest common divisor of two numbers",
-            "To solve linear equations",
-            "To compute the sum of a series"
+            "Increase",
+            "Decrease",
+            "Growth",
+            "Expansion"
           ],
-          "answer": "To prove statements for all integers"
+          "answer": "Increase"
         },
         {
-          "question": "What does P(k) mean in the context of mathematical induction?",
+          "question": "Which word can be substituted for \"thing\" in academic writing?",
           "options": [
-            "The proposition being proven",
-            "The conclusion of the inductive hypothesis",
-            "The base case",
-            "The mathematical proof"
+            "Object",
+            "Item",
+            "Entity",
+            "Phenomenon"
           ],
-          "answer": "The proposition being proven"
+          "answer": "Entity"
         },
         {
-          "question": "Which of the following is the key concept in mathematical induction?",
+          "question": "The committee decided to __________ the deadline for the final submission.",
           "options": [
-            "The inductive hypothesis",
-            "The base case",
-            "The conclusion",
+            "Extend",
+            "Reduce",
+            "Shorten",
+            "Eliminate"
+          ],
+          "answer": "Extend"
+        },
+        {
+          "question": "Which of the following is the most formal substitute for \"important\"?",
+          "options": [
+            "Critical",
+            "Valuable",
+            "Significant",
+            "Essential"
+          ],
+          "answer": "Significant"
+        },
+        {
+          "question": "The findings of the research __________ the theory proposed by the scientist.",
+          "options": [
+            "Support",
+            "Reject",
+            "Oppose",
+            "Deny"
+          ],
+          "answer": "Support"
+        },
+        {
+          "question": "Which of the following terms is the most formal alternative to \"a lot of\"?",
+          "options": [
+            "Plenty",
+            "Numerous",
+            "Several",
+            "Many"
+          ],
+          "answer": "Numerous"
+        },
+        {
+          "question": "The researcher __________ the results carefully to ensure accuracy.",
+          "options": [
+            "Examine",
+            "Ignore",
+            "Overlook",
+            "Reject"
+          ],
+          "answer": "Examine"
+        },
+        {
+          "question": "Which word can replace \"about\" in academic writing?",
+          "options": [
+            "Concerning",
+            "Regarding",
+            "Pertaining to",
             "All of the above"
           ],
           "answer": "All of the above"
         },
         {
-          "question": "What does P(k+1) represent in a proof by induction?",
+          "question": "The __________ of the experiment was documented in detail.",
           "options": [
-            "The next step to be proven",
-            "The result from the base case",
-            "The assumption that P(k) is true",
-            "The conclusion from P(k)"
+            "Outcome",
+            "Process",
+            "Cause",
+            "Effect"
           ],
-          "answer": "The next step to be proven"
+          "answer": "Outcome"
         },
         {
-          "question": "What is the common mistake in a proof by induction?",
+          "question": "Which of the following is the most formal replacement for \"many\"?",
           "options": [
-            "Failing to prove the base case",
-            "Failing to assume P(k) is true",
-            "Assuming P(k+1) holds for all k",
-            "Using incorrect induction formulas"
+            "Numerous",
+            "A lot",
+            "Plenty",
+            "Some"
           ],
-          "answer": "Failing to prove the base case"
-        },
-        {
-          "question": "What is the principle of mathematical induction typically used to prove?",
-          "options": [
-            "The sum of a series",
-            "Properties of sequences",
-            "Divisibility rules",
-            "All of the above"
-          ],
-          "answer": "All of the above"
-        },
-        {
-          "question": "How do you prove that P(k) implies P(k+1) in mathematical induction?",
-          "options": [
-            "By assuming P(k) is true and deriving P(k+1)",
-            "By directly proving P(k+1)",
-            "By calculating the values of P(k)",
-            "By proving P(k) for all integers"
-          ],
-          "answer": "By assuming P(k) is true and deriving P(k+1)"
-        },
-        {
-          "question": "What does the inductive hypothesis prove in mathematical induction?",
-          "options": [
-            "That the statement holds for all integers",
-            "That the base case is true",
-            "That the statement is true for k",
-            "That the statement holds for the next integer"
-          ],
-          "answer": "That the statement is true for k"
-        },
-        {
-          "question": "How is mathematical induction used in combinatorics?",
-          "options": [
-            "To prove the number of ways to arrange objects",
-            "To prove divisibility properties",
-            "To count the number of subsets",
-            "To prove properties of functions"
-          ],
-          "answer": "To prove the number of ways to arrange objects"
+          "answer": "Numerous"
         }
       ]
     },
     {
-      "title": "q7",
+      "title": "q11",
       "questions": [
         {
-          "question": "What is a graph in mathematics?",
+          "question": "To ensure __________, the verb must match the subject in number and person.",
           "options": [
-            "A set of vertices connected by edges",
-            "A set of numbers arranged in order",
-            "A sequence of vertices",
-            "A linear diagram"
+            "Subject-verb agreement",
+            "Subject-object agreement",
+            "Object-verb agreement",
+            "Object-subject agreement"
           ],
-          "answer": "A set of vertices connected by edges"
+          "answer": "Subject-verb agreement"
         },
         {
-          "question": "What is a vertex in a graph?",
+          "question": "Which of the following sentences is grammatically correct?",
           "options": [
-            "An edge that connects two vertices",
-            "A node in the graph",
-            "A path between two nodes",
-            "A label on the edge"
+            "The data was collected yesterday.",
+            "The data were collected yesterday.",
+            "The data has been collected yesterday.",
+            "The data is being collected yesterday."
           ],
-          "answer": "A node in the graph"
+          "answer": "The data were collected yesterday."
         },
         {
-          "question": "What is an edge in a graph?",
+          "question": "__________ is a significant difference between the two reports.",
           "options": [
-            "A connection between two vertices",
-            "A path between two nodes",
-            "A subset of vertices",
-            "A weight assigned to a vertex"
+            "There",
+            "Their",
+            "They",
+            "Them"
           ],
-          "answer": "A connection between two vertices"
+          "answer": "There"
         },
         {
-          "question": "What is the degree of a vertex?",
+          "question": "Which of the following sentences uses the correct form of the verb?",
           "options": [
-            "The number of edges connected to that vertex",
-            "The number of adjacent vertices",
-            "The total number of edges in the graph",
-            "The weight of the vertex"
+            "Neither the professor nor the students is ready.",
+            "Neither the professor nor the students are ready.",
+            "Neither the professor nor the students were ready.",
+            "Neither the professor nor the students be ready."
           ],
-          "answer": "The number of edges connected to that vertex"
+          "answer": "Neither the professor nor the students are ready."
         },
         {
-          "question": "What is a directed graph (digraph)?",
+          "question": "She __________ the book every week.",
           "options": [
-            "A graph where edges have no direction",
-            "A graph where edges have a direction",
-            "A graph with no edges",
-            "A graph with multiple edges"
+            "Read",
+            "Reads",
+            "Is read",
+            "Has read"
           ],
-          "answer": "A graph where edges have a direction"
+          "answer": "Reads"
         },
         {
-          "question": "What is an undirected graph?",
+          "question": "Which of the following is the correct plural form of \"criterion\"?",
           "options": [
-            "A graph where edges have no direction",
-            "A graph where edges have a direction",
-            "A graph that does not contain any edges",
-            "A graph with multiple edges between vertices"
+            "Criteria",
+            "Criterion",
+            "Criterions",
+            "Criteri"
           ],
-          "answer": "A graph where edges have no direction"
+          "answer": "Criteria"
         },
         {
-          "question": "What is the adjacency matrix of a graph?",
+          "question": "He __________ writing his thesis.",
           "options": [
-            "A matrix that represents the number of vertices",
-            "A matrix that represents the number of edges",
-            "A matrix where the element at (i, j) indicates whether there is an edge between vertex i and vertex j",
-            "A matrix that stores the degree of each vertex"
+            "Is",
+            "Are",
+            "Be",
+            "Was"
           ],
-          "answer": "A matrix where the element at (i, j) indicates whether there is an edge between vertex i and vertex j"
+          "answer": "Is"
         },
         {
-          "question": "What is an adjacency list?",
+          "question": "Which of the following sentences is in the past perfect tense?",
           "options": [
-            "A list of all edges in the graph",
-            "A list of all vertices in the graph",
-            "A list where each vertex points to a list of vertices adjacent to it",
-            "A list representing the degree of each vertex"
+            "I had finished my work before the meeting.",
+            "I was finishing my work when the meeting started.",
+            "I finish my work every day.",
+            "I am finishing my work right now."
           ],
-          "answer": "A list where each vertex points to a list of vertices adjacent to it"
+          "answer": "I had finished my work before the meeting."
         },
         {
-          "question": "What is a path in a graph?",
+          "question": "__________ it was raining, we decided to go for a walk.",
           "options": [
-            "A sequence of edges connecting two vertices",
-            "A sequence of vertices connected by edges",
-            "A cycle in the graph",
-            "A set of edges"
+            "Although",
+            "Because",
+            "Since",
+            "Therefore"
           ],
-          "answer": "A sequence of vertices connected by edges"
+          "answer": "Although"
         },
         {
-          "question": "What is a cycle in a graph?",
+          "question": "Which of the following sentences contains a correct use of the conjunction \"because\"?",
           "options": [
-            "A path that starts and ends at the same vertex",
-            "A sequence of vertices",
-            "A closed set of edges",
-            "A subgraph of the graph"
+            "Because it was raining, we cancelled the event.",
+            "We cancelled the event, because it was raining.",
+            "It was raining because we cancelled the event.",
+            "We cancelled the event because raining."
           ],
-          "answer": "A path that starts and ends at the same vertex"
+          "answer": "Because it was raining, we cancelled the event."
         },
         {
-          "question": "What is the degree of a vertex in a directed graph?",
+          "question": "I will __________ a report tomorrow.",
           "options": [
-            "The number of edges connected to the vertex",
-            "The number of outgoing edges from the vertex",
-            "The number of incoming edges to the vertex",
+            "Write",
+            "Wrote",
+            "Written",
+            "Writing"
+          ],
+          "answer": "Write"
+        },
+        {
+          "question": "Which of the following is a correct example of subject-verb agreement?",
+          "options": [
+            "The information are correct.",
+            "The information is correct.",
+            "The information were correct.",
+            "The information be correct."
+          ],
+          "answer": "The information is correct."
+        },
+        {
+          "question": "If I __________ you, I would submit the assignment on time.",
+          "options": [
+            "Be",
+            "Were",
+            "Am",
+            "Is"
+          ],
+          "answer": "Were"
+        },
+        {
+          "question": "Which sentence uses the correct form of \"its\" or \"it's\"?",
+          "options": [
+            "Its a wonderful day.",
+            "It's a wonderful day.",
+            "The dog chased its tail because it's hungry.",
+            "It's coat is warm."
+          ],
+          "answer": "It's a wonderful day."
+        },
+        {
+          "question": "The books __________ on the shelf.",
+          "options": [
+            "Is",
+            "Are",
+            "Be",
+            "Was"
+          ],
+          "answer": "Are"
+        },
+        {
+          "question": "Which of the following sentences is grammatically correct?",
+          "options": [
+            "The report, that was submitted last week, was approved.",
+            "The report, which was submitted last week, was approved.",
+            "The report which was submitted last week was approved.",
+            "The report was approved that was submitted last week."
+          ],
+          "answer": "The report, which was submitted last week, was approved."
+        },
+        {
+          "question": "The teacher __________ the students to complete the assignment by Friday.",
+          "options": [
+            "Ask",
+            "Asks",
+            "Askeds",
+            "Asking"
+          ],
+          "answer": "Asks"
+        },
+        {
+          "question": "Which of the following sentences is an example of an imperative sentence?",
+          "options": [
+            "You should go home now.",
+            "Go home now.",
+            "Will you go home now?",
+            "Going home now is important."
+          ],
+          "answer": "Go home now."
+        },
+        {
+          "question": "The team __________ completed the project ahead of schedule.",
+          "options": [
+            "Has",
+            "Have",
+            "Was",
+            "Is"
+          ],
+          "answer": "Has"
+        },
+        {
+          "question": "Which of the following sentences contains an error in subject-verb agreement?",
+          "options": [
+            "The team is ready for the competition.",
+            "The teams are ready for the competition.",
+            "The students are working hard.",
+            "The student are working hard."
+          ],
+          "answer": "The student are working hard."
+        }
+      ]
+    },
+    {
+      "title": "q12",
+      "questions": [
+        {
+          "question": "The project __________ by the team yesterday.",
+          "options": [
+            "Complete",
+            "Was completed",
+            "Is completed",
+            "Has been completed"
+          ],
+          "answer": "Was completed"
+        },
+        {
+          "question": "Which of the following sentences is in passive voice?",
+          "options": [
+            "The researchers conducted the experiment.",
+            "The experiment was conducted by the researchers.",
+            "The researchers are conducting the experiment.",
+            "The experiment will conduct the researchers."
+          ],
+          "answer": "The experiment was conducted by the researchers."
+        },
+        {
+          "question": "The results __________ at the meeting tomorrow.",
+          "options": [
+            "Are announced",
+            "Were announced",
+            "Will be announced",
+            "Are being announced"
+          ],
+          "answer": "Will be announced"
+        },
+        {
+          "question": "What is the passive form of the sentence: \"They are fixing the car\"?",
+          "options": [
+            "The car fixes.",
+            "The car is fixed.",
+            "The car is being fixed.",
+            "The car will be fixed."
+          ],
+          "answer": "The car is being fixed."
+        },
+        {
+          "question": "The contract __________ by the manager yesterday.",
+          "options": [
+            "Is signed",
+            "Was signed",
+            "Will be signed",
+            "Has been signed"
+          ],
+          "answer": "Was signed"
+        },
+        {
+          "question": "Which of the following sentences is in passive voice?",
+          "options": [
+            "The company developed new software.",
+            "The new software was developed by the company.",
+            "The company is developing new software.",
+            "The new software is being developed by the company."
+          ],
+          "answer": "The new software was developed by the company."
+        },
+        {
+          "question": "The research paper __________ last week.",
+          "options": [
+            "Is submitted",
+            "Was submitted",
+            "Will be submitted",
+            "Has been submitted"
+          ],
+          "answer": "Was submitted"
+        },
+        {
+          "question": "Which of the following is the passive form of \"They will complete the report\"?",
+          "options": [
+            "The report is completed.",
+            "The report will be completed.",
+            "The report is being completed.",
+            "The report has been completed."
+          ],
+          "answer": "The report will be completed."
+        },
+        {
+          "question": "The new regulations __________ by the government next month.",
+          "options": [
+            "Were implemented",
+            "Are implemented",
+            "Will be implemented",
+            "Have been implemented"
+          ],
+          "answer": "Will be implemented"
+        },
+        {
+          "question": "Which of the following sentences uses the correct passive voice?",
+          "options": [
+            "The lecture is presented by the professor.",
+            "The professor presented the lecture.",
+            "The lecture was presented by the professor.",
+            "The lecture presented the professor."
+          ],
+          "answer": "The lecture was presented by the professor."
+        },
+        {
+          "question": "The document __________ by the assistant before the meeting.",
+          "options": [
+            "Is prepared",
+            "Was prepared",
+            "Will be prepared",
+            "Has been prepared"
+          ],
+          "answer": "Was prepared"
+        },
+        {
+          "question": "Which of the following sentences is in passive voice?",
+          "options": [
+            "The researchers collected data from the participants.",
+            "Data was collected from the participants by the researchers.",
+            "The researchers are collecting data.",
+            "The participants collected data."
+          ],
+          "answer": "Data was collected from the participants by the researchers."
+        },
+        {
+          "question": "The book __________ last year.",
+          "options": [
+            "Was published",
+            "Is published",
+            "Will be published",
+            "Has been published"
+          ],
+          "answer": "Was published"
+        },
+        {
+          "question": "Which of the following sentences uses passive voice correctly?",
+          "options": [
+            "The results of the study will be analyzed by the team.",
+            "The team analyzed the results of the study.",
+            "The team will analyze the results of the study.",
+            "The team is analyzing the results of the study."
+          ],
+          "answer": "The results of the study will be analyzed by the team."
+        },
+        {
+          "question": "The house __________ last month.",
+          "options": [
+            "Was sold",
+            "Is sold",
+            "Has been sold",
+            "Will be sold"
+          ],
+          "answer": "Was sold"
+        },
+        {
+          "question": "What is the correct passive form of \"They are designing a new website\"?",
+          "options": [
+            "A new website is being designed.",
+            "A new website designs.",
+            "A new website is designed.",
+            "A new website will be designed."
+          ],
+          "answer": "A new website is being designed."
+        },
+        {
+          "question": "The meeting __________ for next Friday.",
+          "options": [
+            "Was scheduled",
+            "Is scheduled",
+            "Will be scheduled",
+            "Has been scheduled"
+          ],
+          "answer": "Is scheduled"
+        },
+        {
+          "question": "Which of the following is a passive sentence?",
+          "options": [
+            "The company produces high-quality goods.",
+            "High-quality goods are produced by the company.",
+            "The company will produce high-quality goods.",
+            "High-quality goods produce the company."
+          ],
+          "answer": "High-quality goods are produced by the company."
+        },
+        {
+          "question": "The system __________ by the team every month.",
+          "options": [
+            "Tests",
+            "Is tested",
+            "Will be tested",
+            "Has been tested"
+          ],
+          "answer": "Is tested"
+        },
+        {
+          "question": "What is the correct passive form of \"The researchers will analyze the data\"?",
+          "options": [
+            "The data will be analyzed by the researchers.",
+            "The data is analyzed by the researchers.",
+            "The data has been analyzed by the researchers.",
+            "The data will analyze the researchers."
+          ],
+          "answer": "The data will be analyzed by the researchers."
+        }
+      ]
+    },
+    {
+      "title": "q13",
+      "questions": [
+        {
+          "question": "To maintain __________ in academic writing, it is important to avoid personal opinions.",
+          "options": [
+            "Objectivity",
+            "Subjectivity",
+            "Bias",
+            "Emotions"
+          ],
+          "answer": "Objectivity"
+        },
+        {
+          "question": "Which of the following is an example of formal language?",
+          "options": [
+            "Gotta",
+            "Wanna",
+            "Should not",
+            "OK"
+          ],
+          "answer": "Should not"
+        },
+        {
+          "question": "In academic writing, __________ language should be used to maintain a neutral and objective tone.",
+          "options": [
+            "Personal",
+            "Impersonal",
+            "Emotional",
+            "Informal"
+          ],
+          "answer": "Impersonal"
+        },
+        {
+          "question": "Which of the following is an example of an objective statement in academic writing?",
+          "options": [
+            "I believe the results are promising.",
+            "The results indicate a significant improvement.",
+            "In my opinion, the results are not accurate.",
+            "I think the experiment was successful."
+          ],
+          "answer": "The results indicate a significant improvement."
+        },
+        {
+          "question": "It is crucial to avoid __________ expressions in academic writing.",
+          "options": [
+            "Slang",
+            "Formal",
+            "Technical",
+            "Complex"
+          ],
+          "answer": "Slang"
+        },
+        {
+          "question": "Which sentence is the most formal?",
+          "options": [
+            "This paper talks about the effects of climate change.",
+            "This paper discusses the effects of climate change.",
+            "This paper is about the effects of climate change.",
+            "This paper mentions the effects of climate change."
+          ],
+          "answer": "This paper discusses the effects of climate change."
+        },
+        {
+          "question": "In academic writing, one should use __________ language to avoid bias.",
+          "options": [
+            "Emotional",
+            "Neutral",
+            "Informal",
+            "Strong"
+          ],
+          "answer": "Neutral"
+        },
+        {
+          "question": "Which of the following sentences is the most objective?",
+          "options": [
+            "I think the theory is flawed.",
+            "The theory seems to have flaws.",
+            "The theory is flawed.",
+            "The theory is probably flawed."
+          ],
+          "answer": "The theory seems to have flaws."
+        },
+        {
+          "question": "Using __________ is essential for maintaining objectivity in academic writing.",
+          "options": [
+            "Personal pronouns",
+            "Third-person perspective",
+            "First-person perspective",
+            "Second-person perspective"
+          ],
+          "answer": "Third-person perspective"
+        },
+        {
+          "question": "Which of the following phrases is considered informal and should be avoided in academic writing?",
+          "options": [
+            "For example",
+            "As shown in the table",
+            "It's clear that",
+            "In conclusion"
+          ],
+          "answer": "It's clear that"
+        },
+        {
+          "question": "The study __________ that further research is needed to confirm the results.",
+          "options": [
+            "Suggests",
+            "Suggested",
+            "Is suggesting",
+            "Has suggested"
+          ],
+          "answer": "Suggests"
+        },
+        {
+          "question": "Which of the following is the most formal alternative for \"get\"?",
+          "options": [
+            "Receive",
+            "Obtain",
+            "Acquire",
             "All of the above"
           ],
           "answer": "All of the above"
         },
         {
-          "question": "What is a spanning tree of a graph?",
+          "question": "The __________ of colloquial language is discouraged in formal academic writing.",
           "options": [
-            "A subgraph that includes all edges of the graph",
-            "A subgraph that includes all vertices and is a tree",
-            "A subgraph with no cycles",
-            "A subgraph that includes all cycles"
+            "Use",
+            "Using",
+            "Used",
+            "To use"
           ],
-          "answer": "A subgraph that includes all vertices and is a tree"
+          "answer": "Use"
         },
         {
-          "question": "How can the graph traversal technique BFS be described?",
+          "question": "Which sentence is more formal?",
           "options": [
-            "Exploring all vertices from a starting vertex before backtracking",
-            "Exploring vertices level by level",
-            "Exploring the vertices in a depth-first manner",
-            "Searching the graph using recursion"
+            "I think the data is accurate.",
+            "The data appears to be accurate.",
+            "I believe the data is accurate.",
+            "The data seems to be accurate."
           ],
-          "answer": "Exploring vertices level by level"
+          "answer": "The data appears to be accurate."
         },
         {
-          "question": "Which data structure is used in BFS for storing vertices to be visited?",
+          "question": "In academic writing, it is important to __________ personal opinions in the analysis of data.",
           "options": [
-            "Stack",
-            "Queue",
-            "Array",
-            "Linked list"
+            "Avoid",
+            "Include",
+            "Emphasize",
+            "Consider"
           ],
-          "answer": "Queue"
+          "answer": "Avoid"
         },
         {
-          "question": "What is the time complexity of BFS on a graph with V vertices and E edges?",
+          "question": "Which of the following is an example of formal academic language?",
           "options": [
-            "O(V)",
-            "O(E)",
-            "O(V + E)",
-            "O(V²)"
+            "The paper will look at how climate change impacts the environment.",
+            "The paper will examine how climate change impacts the environment.",
+            "The paper is going to look at how climate change impacts the environment.",
+            "The paper will discuss how climate change affects the environment."
           ],
-          "answer": "O(V + E)"
+          "answer": "The paper will examine how climate change impacts the environment."
         },
         {
-          "question": "What is the DFS algorithm used for in graph theory?",
+          "question": "Using __________ helps to ensure precision and clarity in academic writing.",
           "options": [
-            "To find the shortest path between two vertices",
-            "To explore the graph in breadth-first order",
-            "To explore deeper into the graph and backtrack when necessary",
-            "To traverse a tree in a level-by-level manner"
+            "Clichés",
+            "Technical terms",
+            "Informal expressions",
+            "Colloquial language"
           ],
-          "answer": "To explore deeper into the graph and backtrack when necessary"
+          "answer": "Technical terms"
         },
         {
-          "question": "What is the time complexity of DFS on a graph with V vertices and E edges?",
+          "question": "Which sentence maintains the appropriate objectivity for academic writing?",
           "options": [
-            "O(V)",
-            "O(E)",
-            "O(V + E)",
-            "O(V²)"
+            "I personally think the data supports the hypothesis.",
+            "The data supports the hypothesis.",
+            "I believe the data supports the hypothesis.",
+            "In my opinion, the data supports the hypothesis."
           ],
-          "answer": "O(V + E)"
+          "answer": "The data supports the hypothesis."
         },
         {
-          "question": "How does DFS handle vertices with no unvisited adjacent vertices?",
+          "question": "It is important to use __________ evidence to support your arguments in academic writing.",
           "options": [
-            "It backtracks and visits the previous unvisited vertex",
-            "It continues visiting vertices in the graph",
-            "It terminates the algorithm",
-            "It revisits the last visited vertex"
+            "Direct",
+            "Indirect",
+            "Personal",
+            "Emotional"
           ],
-          "answer": "It backtracks and visits the previous unvisited vertex"
+          "answer": "Direct"
         },
         {
-          "question": "What is the purpose of graph traversal algorithms like BFS and DFS?",
+          "question": "Which of the following words is most formal and appropriate for academic writing?",
           "options": [
-            "To find the shortest path between two vertices",
-            "To explore all the vertices and edges in the graph",
-            "To detect cycles in the graph",
-            "To find the maximum flow in the graph"
+            "A lot",
+            "A few",
+            "Several",
+            "Plenty"
           ],
-          "answer": "To explore all the vertices and edges in the graph"
-        },
-        {
-          "question": "What is the main difference between BFS and DFS?",
-          "options": [
-            "BFS uses a stack, while DFS uses a queue",
-            "DFS uses a stack, while BFS uses a queue",
-            "BFS explores deeper, while DFS explores level by level",
-            "DFS explores level by level, while BFS explores deeper"
-          ],
-          "answer": "DFS uses a stack, while BFS uses a queue"
+          "answer": "Several"
         }
       ]
     }

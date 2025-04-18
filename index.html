@@ -1,210 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TW Quiz - Powered by Voldy</title>
+    <meta name="title" content="SLIIT IP" />
+    <meta
+      name="description"
+      content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DM Quiz - Powered by Voldy</title>
-  <meta name="title" content="SLIIT IP" />
-  <meta name="description" content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="TW MCQ App" />
+    <meta
+      property="og:description"
+      content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!"
+    />
+    <meta property="og:image" content="" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:title" content="DCN MCQ App" />
-  <meta property="og:description" content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!" />
-  <meta property="og:image" content="" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="" />
+    <meta
+      property="twitter:title"
+      content="Introduction Program MCQ App - Powered by Voldy"
+    />
+    <meta
+      property="twitter:description"
+      content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!"
+    />
+    <meta property="twitter:image" content="" />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="" />
-  <meta property="twitter:title" content="Introduction Program MCQ App - Powered by Voldy" />
-  <meta property="twitter:description" content="Test your knowledge on web components development with this interactive MCQ quiz. Perfect for developers looking to enhance their skills!" />
-  <meta property="twitter:image" content="" />
+    <link rel="icon" type="image/png" sizes="32x32" href="#" />
+    <link rel="stylesheet" href="./style.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="#">
-  <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TLD68YTGHE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TLD68YTGHE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-TLD68YTGHE");
+    </script>
+  </head>
 
-    gtag('config', 'G-TLD68YTGHE');
-  </script>
-
-</head>
-
-<body>
-  <main>
-    <article class="row-top">
-      <div class="curr-subject">
-        <div class="button-icon-container">
-          <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+  <body>
+    <main>
+      <article class="row-top">
+        <div class="curr-subject">
+          <div class="button-icon-container">
+            <img
+              class="subject-img"
+              src="./assets/images/icon-css.svg"
+              alt="subject icon"
+            />
+          </div>
+          <h2 class="subject-chosen">some Subject</h2>
         </div>
-        <h2 class="subject-chosen">some Subject</h2>
-      </div>
-      <div class="light-dark-toggle">
-        <div class="sun-container">
-          <img src="" alt="picture of sun">
+        <div class="light-dark-toggle">
+          <div class="sun-container">
+            <img src="" alt="picture of sun" />
+          </div>
+          <label class="light-dark-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+          <div class="moon-container">
+            <img src="" alt="picture of moon" />
+          </div>
         </div>
-        <label class="light-dark-switch" for="checkbox">
-          <input type="checkbox" id="checkbox" />
-          <div class="slider round"></div>
-        </label>
-        <div class="moon-container">
-          <img src="" alt="picture of moon">
-        </div>
-      </div>
-    </article>
+      </article>
 
-    <!-- Quiz menu start -->
+      <!-- Quiz menu start -->
 
-    <article class="start-menu">
-      <div class="left-content" style="background: linear-gradient(135deg, #9dbdde, #3485e9); color: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; text-align: center;">
-        <h1 style="margin-bottom: 10px; font-size: 42px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-            hey <span style="color: #60e1ff; font-weight: 700; text-decoration: underline; text-decoration-color: #ff6b6b; text-decoration-style: wavy;">DM!</span> 
+      <article class="start-menu">
+        <div
+          class="left-content"
+          style="
+            background: linear-gradient(135deg, #9dbdde, #3485e9);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            text-align: center;
+          "
+        >
+          <h1
+            style="
+              margin-bottom: 10px;
+              font-size: 42px;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            "
+          >
+            hey
+            <span
+              style="
+                color: #60e1ff;
+                font-weight: 700;
+                text-decoration: underline;
+                text-decoration-color: #ff6b6b;
+                text-decoration-style: wavy;
+              "
+              >TW!</span
+            >
             🧩 🔄 📦
-        </h1>
-        <h2 style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; margin: 20px 0; font-size: 24px; display: flex; align-items: center; justify-content: center;">
-            <span style="transform: rotate(-5deg); display: inline-block; margin-right: 10px;">🔮</span> 
-            / 👑 HEAL HASINDU 👑 !!! \ 
-            <span style="transform: rotate(5deg); display: inline-block; margin-left: 10px;">🧙‍♂️</span>
-        </h2>
-        <p style="font-size: 20px; line-height: 1.6; margin-top: 25px; font-weight: 300; color: black;">
+          </h1>
+          <h2
+            style="
+              background: rgba(255, 255, 255, 0.1);
+              padding: 15px;
+              border-radius: 10px;
+              margin: 20px 0;
+              font-size: 24px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <span
+              style="
+                transform: rotate(-5deg);
+                display: inline-block;
+                margin-right: 10px;
+              "
+              >🔮</span
+            >
+            / 👑 HEAL HASINDU 👑 !!! \
+            <span
+              style="
+                transform: rotate(5deg);
+                display: inline-block;
+                margin-left: 10px;
+              "
+              >🧙‍♂️</span
+            >
+          </h2>
+          <p
+            style="
+              font-size: 20px;
+              line-height: 1.6;
+              margin-top: 25px;
+              font-weight: 300;
+              color: black;
+            "
+          >
             🚀 Pick a quiz to get started 📝 🎮 💡
-        </p>
-        <div style="margin-top: 20px; font-size: 24px;">
-            🧠 👨‍💻 🔍 🎯 🏆
+          </p>
+          <div style="margin-top: 20px; font-size: 24px">🧠 👨‍💻 🔍 🎯 🏆</div>
         </div>
-    </div>
-    
-      <div class="choices">
 
-        <!-- Dynamically generated buttons based on quiz titles from JSON -->
-        <button id="q1" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Sets
-        </button>
-
-        <button id="q2" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Functions 
-        </button>
-
-        <button id="q3" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Sequences
-        </button>
-
-        <button id="q4" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Counting I
-        </button>
-
-        <button id="q5" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Counting II
-        </button>
-
-        <button id="q6" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Mathematical Induction
-        </button>
-
-        <button id="q7" class="quiz-type">
-          <div class="button-icon-container">
-            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
-          </div>
-          Graphs 
-        </button>
-       
-      </div>
-    </article>
-
-    <!-- Quiz menu end -->
-
-    <!-- Quiz question start -->
-
-    <article class="question-screen">
-      <div class="left-content">
-        <div class="question-wrapper">
-          <p class="question-count">Question <span class="question-number"><!-- number --></span> of <span class="question-total"><!-- total --></span></p>
-          <h2 class="question">Placeholder</h2>
-        </div>
-        <div class="progress-bar whole">
-          <div class="progress-bar done"></div>
-        </div>
-      </div>
-      <div class="choices options">
-        <button id="A" class="option">
-          <div class="option-box">A</div>
-        </button>
-        <button id="B" class="option">
-          <div class="option-box">B</div>
-        </button>
-        <button id="C" class="option">
-          <div class="option-box">C</div>
-        </button>
-        <button id="D" class="option">
-          <div class="option-box">D</div>
-        </button>
-
-        <button class="submit-answer">Submit answer</button>
-        <div class="select-prompt">
-          <img src="./assets/images/icon-error.svg" alt="error icon">
-          <p class="select-prompt-text">Please select an answer</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- Quiz question end -->
-
-    <!-- Quiz completed start -->
-
-    <article class="quiz-complete">
-      <div class="complete-left">
-        <h1>Quiz completed
-          <span class="scored">You scored...</span>
-        </h1>
-      </div>
-
-      <div class="complete-right">
-        <div class="score-container">
-          <div class="final curr-subject">
+        <div class="choices">
+          <!-- Academic Writing Quizzes -->
+          <button id="q8" class="quiz-type">
             <div class="button-icon-container">
-              <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
             </div>
-            <h2 class="subject-chosen">some Subject</h2>
-          </div>
-          <h1 class="final-score"><!-- score --></h1>
-          <p class="score-out-of">out of <span class="complete-question-total">totalQ</span></p>
+            Academic Writing - Features of Academic Writing Style
+          </button>
+
+          <button id="q9" class="quiz-type">
+            <div class="button-icon-container">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
+            </div>
+            Academic Writing - Passive Voice
+          </button>
+
+          <button id="q10" class="quiz-type">
+            <div class="button-icon-container">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
+            </div>
+            Academic Writing - Vocabulary Substitution
+          </button>
+
+          <button id="q11" class="quiz-type">
+            <div class="button-icon-container">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
+            </div>
+            Academic Writing - Grammar and Structure
+          </button>
+
+          <button id="q12" class="quiz-type">
+            <div class="button-icon-container">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
+            </div>
+            Academic Writing - Passive Voice in Context
+          </button>
+
+          <button id="q13" class="quiz-type">
+            <div class="button-icon-container">
+              <img
+                src="./assets/images/icon-accessibility.svg"
+                alt="Accessibility icon"
+              />
+            </div>
+            Academic Writing - Objectivity and Formality
+          </button>
         </div>
-        <button class="restart">Play Again</button>
-      </div>
-    </article>
+      </article>
 
-    <!-- Quiz completed end -->
+      <!-- Quiz menu end -->
 
-  </main>
-  <script src="./app.js"></script>
-</body>
+      <!-- Quiz question start -->
 
+      <article class="question-screen">
+        <div class="left-content">
+          <div class="question-wrapper">
+            <p class="question-count">
+              Question <span class="question-number"><!-- number --></span> of
+              <span class="question-total"><!-- total --></span>
+            </p>
+            <h2 class="question">Placeholder</h2>
+          </div>
+          <div class="progress-bar whole">
+            <div class="progress-bar done"></div>
+          </div>
+        </div>
+        <div class="choices options">
+          <button id="A" class="option">
+            <div class="option-box">A</div>
+          </button>
+          <button id="B" class="option">
+            <div class="option-box">B</div>
+          </button>
+          <button id="C" class="option">
+            <div class="option-box">C</div>
+          </button>
+          <button id="D" class="option">
+            <div class="option-box">D</div>
+          </button>
+
+          <button class="submit-answer">Submit answer</button>
+          <div class="select-prompt">
+            <img src="./assets/images/icon-error.svg" alt="error icon" />
+            <p class="select-prompt-text">Please select an answer</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Quiz question end -->
+
+      <!-- Quiz completed start -->
+
+      <article class="quiz-complete">
+        <div class="complete-left">
+          <h1>
+            Quiz completed
+            <span class="scored">You scored...</span>
+          </h1>
+        </div>
+
+        <div class="complete-right">
+          <div class="score-container">
+            <div class="final curr-subject">
+              <div class="button-icon-container">
+                <img
+                  class="subject-img"
+                  src="./assets/images/icon-css.svg"
+                  alt="subject icon"
+                />
+              </div>
+              <h2 class="subject-chosen">some Subject</h2>
+            </div>
+            <h1 class="final-score"><!-- score --></h1>
+            <p class="score-out-of">
+              out of <span class="complete-question-total">totalQ</span>
+            </p>
+          </div>
+          <button class="restart">Play Again</button>
+        </div>
+      </article>
+
+      <!-- Quiz completed end -->
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
