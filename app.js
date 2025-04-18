@@ -63,7 +63,7 @@ var increment;
 const quizData = {
   "quizzes": [
     {
-        "title": "q1",
+        "title": "q1",  
         "questions": [
           {
             "question": "What is the main advantage of using the Object-Oriented Programming (OOP) paradigm?",
