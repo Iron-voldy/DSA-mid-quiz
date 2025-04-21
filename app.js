@@ -2358,7 +2358,7 @@ const quizData = {
       ]
     }
   ]
-};l
+};
 
 
 // This function gets the quiz data based on the selected quiz type
